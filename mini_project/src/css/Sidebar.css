@@ -1,0 +1,24 @@
+/* styles.css */
+.sidebar-item {
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .sidebar-item:hover {
+    color: #ffffff; /* Màu chữ khi hover */
+    transform: scale(1.05); /* Tăng kích thước chữ một chút */
+  }
+  
+  body {
+    transition: background-color 0.3s;
+  }
+  
+  body.dark-mode {
+    background-color: #1a202c; /* Màu nền tối */
+    color: #ffffff; /* Màu chữ sáng */
+  }
+  
+  body.light-mode {
+    background-color: #ffffff; /* Màu nền sáng */
+    color: #000000; /* Màu chữ tối */
+  }
+  
